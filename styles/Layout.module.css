@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 15px;
+}
+
+.header div, .header a {
+  display: flex;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.footer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}

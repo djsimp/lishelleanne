@@ -6,6 +6,17 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +24,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.primary {
+  background-color: #9d65f1;
+  color: white;
+}
+
+.secondary {
+  background-color: #d0f992;
+  color: black;
 }
